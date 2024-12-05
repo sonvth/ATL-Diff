@@ -4,8 +4,10 @@
 
 ---
 ## Model Architecture
-<iframe src="static/overview.pdf" width="600"></iframe>
+![overview architecture](static/overview.jpg)
 
+## Qualitative Results
+![overview architecture](static/quantitative.jpg)
 
 ## How to run:
 ***Comming soon***
