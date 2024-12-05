@@ -8,23 +8,27 @@
 
 ## Qualitative Results
 ![overview architecture](static/quantitative.jpg)
+---
+## How to train:
+Update soon!
 
+---
 ## How to inference:
-### Get the repository:
+#### Get the repository:
 - Clone the repository:
     ```bash
     git clone https://github.com/sonvth/ATL-Diff
     cd ATL-Diff
     ```
 
-### Setup enviroment:
+#### Setup enviroment:
 - Run this source on terminal 
     ```bash
     python3 -m venv .venv
     pip3 install -r requirements.txt
     ```
 
-### Inference
+#### Inference
 
 - Download weights in from this: https://drive.google.com/drive/folders/1_6UB-2hD4XVMzZhauBT7YGG2t9FGgFho?usp=drive_link
 - Put downloaded folder into repo.
