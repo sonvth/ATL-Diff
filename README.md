@@ -9,9 +9,31 @@
 ## Qualitative Results
 ![overview architecture](static/quantitative.jpg)
 
-## How to run:
-***Comming soon***
+## How to inference:
+### Get the repository:
+- Clone the repository:
+    ```bash
+    git clone https://github.com/sonvth/ATL-Diff
+    cd ATL-Diff
+    ```
 
+### Setup enviroment:
+- Run this source on terminal 
+    ```bash
+    python3 -m venv .venv
+    pip3 install -r requirements.txt
+    ```
+
+### Inference
+
+- Download weights in from this: https://drive.google.com/drive/folders/1_6UB-2hD4XVMzZhauBT7YGG2t9FGgFho?usp=drive_link
+- Put downloaded folder into repo.
+- Edit audio source and identity source in [config.py](config.py) file.
+
+- Run this command:
+    ```bash
+    run infer.sh
+    ```
 ---
 
 

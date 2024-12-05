@@ -95,8 +95,8 @@ warnings.filterwarnings('ignore')
 
 
 def main(config):
-    torch.manual_seed(5401)
-
+    torch.manual_seed(config.seed)
+    config.emotion = 1
     x, video, w = load_input(config, config.audio, config.ident)
 
     # Length of each segment (e.g., 1 second = 16000 samples)
