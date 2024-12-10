@@ -10,7 +10,9 @@
 ![overview architecture](static/quantitative.jpg)
 ---
 ## How to train:
-Update soon!
+
+- To train Landmarks Generation Module follow our work in this [repository](https://github.com/sowwnn/KFusion-Dual-Domain-for-Speech-to-Landmarks.git)
+- Update soon!
 
 ---
 ## How to inference:
@@ -30,7 +32,7 @@ Update soon!
 
 #### Inference
 
-- Download weights in from this: https://drive.google.com/drive/folders/1_6UB-2hD4XVMzZhauBT7YGG2t9FGgFho?usp=drive_link
+- Download weights in from this [drive](https://drive.google.com/drive/folders/1_6UB-2hD4XVMzZhauBT7YGG2t9FGgFho?usp=drive_link)
 - Put downloaded folder into repo.
 - Edit audio source and identity source in [config.py](config.py) file.
 
